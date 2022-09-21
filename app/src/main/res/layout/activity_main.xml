@@ -59,7 +59,7 @@
         app:layout_constraintTop_toBottomOf="@+id/SpinnerView" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/PassConfirm"
         android:layout_width="127dp"
         android:layout_height="48dp"
         android:hint="Password confirm only"
@@ -87,7 +87,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Save"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="502dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
