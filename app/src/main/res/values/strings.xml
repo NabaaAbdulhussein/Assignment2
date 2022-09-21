@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Assignment2</string>
+    <string-array name="Program">
+        <item>Information Science</item>
+        <item>Computer Science</item>
+        <item>Math and CS</item>
+        <item>Data Science</item>
+        <item>Other</item>
+    </string-array>
 </resources>
