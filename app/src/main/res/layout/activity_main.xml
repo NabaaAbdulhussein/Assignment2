@@ -18,8 +18,8 @@
 
     <Spinner
         android:id="@+id/SpinnerView"
-        android:layout_width="179dp"
-        android:layout_height="48dp"
+        android:layout_width="343dp"
+        android:layout_height="36dp"
         android:layout_marginTop="20dp"
         android:contentDescription="@string/app_name"
         android:text="[Please select your program]"
