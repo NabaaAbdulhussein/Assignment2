@@ -113,13 +113,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     //print out welcome message
-    //We tried to run this but the pop up message was not showing, you said no points will be reduced
     fun performSignUp() {
         if (CheckInput()) {
-
+            var text = findViewById<TextView>(R.id.TopMessage)
             val firstName = Name.text.toString()
-
-            Toast.makeText(applicationContext,"Welcome, " + firstName + ", to the SignUpForm App",Toast.LENGTH_SHORT).show()
+            text.text=("Welcome, " + firstName + ", to the SignUpForm App!!")
 
         }
     }
